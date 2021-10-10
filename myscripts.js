@@ -22,7 +22,7 @@ function fun(){
           success: function (data) {
             console.log(data)
             result += '<div class="c1"><img src=' + data.Poster + ' /></div>'
-            result += '<div class="c2"> Title and Year : ' + data.Title + '  ( ' + data.Year + ' ) ' + ' </div>'
+            result += '<div class="c2">  Movie name : ' + data.Title + '  ( ' + data.Year + ' ) ' + ' </div>'
             result += '<div class="c3"> Rating : ' + data.imdbRating + '</div>'
             result += '<div class="c4">Language : ' + data.Language + '</div>'
             result += '<div class="c5">Stars : ' + data.Actors + ' </div>'
