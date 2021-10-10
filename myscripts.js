@@ -14,7 +14,7 @@ function fun(){
         var movie = $("#movie").val();
         var result = ""
   
-        var url = "http://www.omdbapi.com/?apikey=" + apikey
+        var url = "https://www.omdbapi.com/?apikey=" + apikey
   
         $.ajax({
           method: 'GET',
