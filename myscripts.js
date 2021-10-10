@@ -1,4 +1,11 @@
-  $(document).ready(function () {
+function fun(){
+    alert("This website is created by Shubham Mehra")
+  }
+  function func(){
+    alert("No contact available")
+  }
+  
+    $(document).ready(function () {
   
       var apikey = "1286211d"
       $("#movieform").submit(function (event) {
@@ -30,9 +37,3 @@
         })
       })
     })
-function fun(){
-    alert("This website is created by Shubham Mehra")
-  }
-  function func(){
-    alert("No contact available")
-  }
